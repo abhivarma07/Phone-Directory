@@ -300,7 +300,7 @@ while(ch == 'y')
         case 5: {
 
                 int x ;
-                char ans ='y' ;
+                char ans ='Y' ;
                 cout<<"\nEnter the contact name to modify : " ;
                 cin>>name ;
 
@@ -326,7 +326,7 @@ while(ch == 'y')
                     break ;
                 }
 
-                while(ans == 'y'|| ans == 'Y')
+                while(ans == 'Y'|| ans == 'Y')
                 {
                 cout<<"\nChoose what to modify : \n 1.Name \n 2.Contact\n>" ;
                 cin>>x ;
@@ -352,7 +352,7 @@ while(ch == 'y')
                     Temp->num = number ;
                 }
 
-                cout<<"\nDo you want to modify more ? (y/n)" ;
+                cout<<"\nDo you want to modify more ? (Y/N)" ;
                 cin>>ans ;
 
                 }
@@ -370,22 +370,16 @@ while(ch == 'y')
         }
 
     
-
-
     default : cout<<"\n\nWrong Option Selected !!!!!" ;
                 break ;
     }
 
-    cout<<"\n\nDo you wish to continue ? (y/n) : " ;
+    cout<<"\n\nDo you wish to continue ? (Y/N) : " ;
     cin>>ch ;
-
-    
 
    
 }
-
 write(Head) ;
-
 return 0 ;
 
 }
